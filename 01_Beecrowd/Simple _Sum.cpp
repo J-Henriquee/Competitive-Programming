@@ -8,11 +8,11 @@ int main()
      * Code your solution here
      * Escriba su solución aquí
      */
-    int A, B;
+    int A{}, B{};
 
-    std::cin >> A, B;
+    std::cin >> A >> B;
 
-    int SOMA = A + B;
+    int SOMA{A + B};
 
     std::cout << "SOMA = " << SOMA << std::endl;
 

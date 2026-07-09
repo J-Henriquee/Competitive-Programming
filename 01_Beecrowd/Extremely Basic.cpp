@@ -8,13 +8,16 @@ int main()
      * Code your solution here
      * Escriba su solución aquí
      */
-    int A, B;
+    int A, B, X;
 
-    std::cin >> A, B;
+    std::cin >> A >> B;
 
-    int SOMA = A + B;
+    // This sums the variables.
 
-    std::cout << "SOMA = " << SOMA << std::endl;
+    X = A + B;
+
+
+    std::cout << X << std::endl;
 
     return 0;
 }
